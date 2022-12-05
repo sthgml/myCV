@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: #230640;
+}
+
+/* 초기화
+     */
+
+body, h1, h2{
+    margin: 0px;
+    padding: 0px;
+}     
+
+.backgroundbox {
+    width: 720px;
+    padding: 30px;
+    margin : 30px auto;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 16px;
+}
+
+header {
+    background-color: #230640;
+    color: #ecedf5;
+    text-align: center;
+    padding: 15px;
+    font-family: AppleSDGothicNeoEB00;
+}
+
+footer {
+    background-color: #230640;
+    padding: 15px;    
+}
+
+#footerText {
+    color: #9183A0;
+    text-align: center;
+    font-family: AppleSDGothicNeoM00;
+}
+/* 
+.floating_right {
+    position: sticky;
+    bottom: 32px;
+    align-self: end;
+    margin-left: 32px;
+    background-color: #fff;
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    color:#4f46e5;
+    filter: drop-shadow(0px 4px 4px #d2dae5);
+} */
+
+.profileImg{
+    width: 10rem;
+    border: 0;
+    border-radius: 8px;
+    filter: drop-shadow(0px 2px 10px #d2dae5);
+}
+
+.profileImgWrap{
+    text-align: right;
+}
+
+.title {
+    text-align:  right;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: AppleSDGothicNeoEB00;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #9183A0;
+}
+
+
+#bigfont {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #9183A0;
+    border-bottom: 1px solid #9183a031;
+    margin: 50px auto 15px auto;
+}
+
+.introText {
+    font-size: 15px;
+    font-family: AppleSDGothicNeoM00;
+    line-height: 18px;
+}
+
+.smallfont {
+    padding-left: 24px;
+    font-size: 15px;
+    font-family: AppleSDGothicNeoM00;
+    line-height: 18px;
+}
+
+
+.expHead{
+    margin:-15px auto;
+    overflow: hidden;
+}
+
+.expTitle{
+    font-size: 15px;
+    font-weight: bolder;
+    float: left;
+}
+
+.expYear {
+    font-size: 15px;
+    font-weight: bolder;
+    float: right;
+}
+
+.expDesc {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.expImg {
+    width : auto;
+    height: 220px;
+    border: 0;
+    border-radius: 8px;
+    filter: drop-shadow(0px 2px 10px #d2dae5);
+}
+
+.expImgWrap {
+    text-align: center;
+}
+
+.awardsImg {
+    width : auto;
+    height: 350px;
+    border: 0;
+    border-radius: 8px;
+    filter: drop-shadow(0px 2px 10px #d2dae5);
+}
+
+.awardsImgWrap {
+    text-align: center;
+}
+
+.gradshowImg {
+    width :700px;
+    height: auto;
+    border: 0;
+    border-radius: 8px;
+    filter: drop-shadow(0px 2px 10px #d2dae5);
+}
+
+.gradshowImgWrap {
+    text-align: center;
+}
+
+.snsImage{
+    width: 24px;
+    height: auto;
+    
+}
+
+.snsWrap{
+    text-align: right;
+}
