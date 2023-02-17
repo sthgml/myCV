@@ -3,7 +3,6 @@
 *{
     font-family: 'Montserrat', sans-serif;
     color: #230640;
-    box-sizing: border-box;
 }
 
 /* 초기화
@@ -12,11 +11,8 @@
 body, h1, h2{
     margin: 0px;
     padding: 0px;
-}    
+}   
 
-body {
-    width: 100vw;
-}
 
 header {
     background-color: #230640;
@@ -27,13 +23,23 @@ header {
 }
 
 .backgroundbox {
-
+    width: auto;
+    position: relative;
     padding: 30px;
     margin : 10px;
     box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
     border: 0;
     border-radius: 16px;
 }
+
+@media only screen and (min-width: 720px) {
+    /* For mobile phones: */
+    .backgroundbox {
+        width: 650px;
+        position: relative;
+        margin : auto;
+    }
+  }
 
 footer {
     background-color: #230640;
@@ -75,7 +81,8 @@ footer {
 }
 
 h1 {
-    margin-top: 10px;
+    margin-top: 0.3em;
+    margin-bottom: -5px;
     font-family: AppleSDGothicNeoEB00;
 }
 
@@ -83,6 +90,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #9183A0;
+    font-weight: normal;
 }
 
 
@@ -114,7 +122,7 @@ h2 {
     overflow: hidden;
 }
 
-.expTitle{
+.expTitle {
     font-size: 15px;
     font-weight: bolder;
     float: left;
@@ -126,10 +134,27 @@ h2 {
     float: right;
 }
 
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .expTitle, .expYear {
+      float: left;
+    }
+    .expYear {
+        margin-top: 0em;
+        font-weight: normal;
+    }
+    .expTitle{
+        margin-top: 1em;
+        margin-bottom: 0.1em;
+    }
+  }
+  
+
 .expDesc {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 13px;
     font-weight: 400;
+    margin-bottom: 5px;
 }
 
 .expImg {
@@ -145,8 +170,8 @@ h2 {
 }
 
 .awardsImg {
-    width : auto;
-    height: 350px;
+    width : 220px;
+    height: auto;
     border: 0;
     border-radius: 8px;
     filter: drop-shadow(0px 2px 10px #d2dae5);
@@ -157,7 +182,7 @@ h2 {
 }
 
 .gradshowImg {
-    width :700px;
+    width :220px;
     height: auto;
     border: 0;
     border-radius: 8px;
