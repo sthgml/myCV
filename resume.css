@@ -131,8 +131,9 @@ h2 {
 
 .expYear {
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: bold;
     float: right;
+    color: #9183A0;
 }
 
 a {
